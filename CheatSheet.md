@@ -141,7 +141,7 @@ use a stack: `Deque<X> stack = new ArrayDeque<>();`
   - sb.append('a' / char[] / int / boolean)
   - sb.deleteCharAt(sb.length() - 1);
   - sb.size()
-  - sb.insert(int index, char ch)
+  - sb.insert(int index, char ch) -> O(n)
   - sb.setLength(int newLength)
   - sb.setCharAt(int index, char ch)
   - CharSequence sb.subSequence(int start, int end)
