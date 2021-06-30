@@ -5,4 +5,5 @@
 | -----------   | -----------   | ----------- | ----------- |
 | 6/27          | 704           | classic binary search | [704](BinarySearch704.java)
 | 6/28          | 240           | search 2D matrix | [240](SearchMatrix240.java)
+| 6/29          | 394           | decode string | [394](DecodeString394.java)
 
