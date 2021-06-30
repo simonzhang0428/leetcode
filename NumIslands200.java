@@ -7,12 +7,11 @@ class Solution200 {
             return 0;
         }
         int ans = 0;
-        final int[][] DIRS = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
 
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
                 if (grid[i][j] == '1') {
-                    dfs(grid, i, j, DIRS);
+                    dfs(grid, i, j);
                     ans++;
                 }
             }
@@ -21,17 +20,18 @@ class Solution200 {
         return ans;
     }
 
-    private void dfs(char[][] grid, int x, int y, int[][] DIRS) {
+    private void dfs(char[][] grid, int x, int y) {
         if (!isValid(grid, x, y) || grid[x][y] == '0') {
             return;
         }
 
         grid[x][y] = '0';
-        for (int[] direction : DIRS) {
-            int nextX = x + direction[0];
-            int nextY = y + direction[1];
-            dfs(grid, nextX, nextY, DIRS);
-        }
+
+        dfs(grid, x, y + 1);
+        dfs(grid, x, y - 1);
+        dfs(grid, x - 1, y);
+        dfs(grid, x + 1, y);
+
     }
 
     private boolean isValid(char[][] grid, int x, int y) {
@@ -40,6 +40,7 @@ class Solution200 {
         }
         return true;
     }
+
 
     // bfs
     public int numIslands_bfs(char[][] grid) {
@@ -87,7 +88,7 @@ public class NumIslands200 {
             {'0', '0', '1', '0', '0'},
             {'0', '0', '0', '1', '1'}
         };
-        int ret = new Solution200().numIslands_bfs(grid);
+        int ret = new Solution200().numIslands(grid);
         System.out.println(ret);
     }
 }
