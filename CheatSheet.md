@@ -1,5 +1,9 @@
 # Java APIs
-## **Array**
+
+## Creater: Simon Zhang
+### [website link](https://simonzhang0428.github.io/leetcode/)
+
+## **Arrays**
 ```
 Arrays.binarySearch(arr, target) -> O(nlogn)
 Arrays.sort()
