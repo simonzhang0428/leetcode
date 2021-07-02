@@ -10,4 +10,5 @@
 | 6/30          | 785           | is graph Bipartite | [785](IsBipartite785.java)
 | 6/30          | 739           | daily temperature | [739](DailyTemperatures739.java)
 | 7/01          | 994           | orange rotting | [994](OrangeRotton994.java)
+| 7/01          | 286           | walls and gates | [286](WallAndGate286.java)
 
