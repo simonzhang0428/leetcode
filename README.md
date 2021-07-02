@@ -1,7 +1,8 @@
 # leetcode
-## This repo is my solution for LeetCode
 
-### [Repo Website Page](https://simonzhang0428.github.io/leetcode/)
+## [Repo Website](https://simonzhang0428.github.io/leetcode/)
+## [Cheat Sheet](CheatSheet.pdf)
+## [Daily Check](DailyCheck.md)
 
 | Date          | Number        |  Title |  Link
 | -----------   | -----------   | ----------- | ----------- |
