@@ -1,0 +1,6 @@
+{
+    // "markdown.extension.list.indentationSize": "inherit"
+    "[markdown]": {
+    "editor.tabSize": 4
+  }
+}

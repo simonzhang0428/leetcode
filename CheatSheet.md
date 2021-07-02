@@ -1,108 +1,128 @@
 # Java APIs
-## Array
-- Arrays.binarySearch(arr, target) -> O(nlogn)
-- Arrays.sort()
-- Arrays.toString()
-- Arrays.asList(int[] arr) -> O(1) only accept object
-- Arrays.copyOf(originalArray, newLength) -> O(1)
-- Arrays.copyOfRange(originalArray, start, end) -> O(n)
-- comparable -> compareTo(secondNum)
+## **Array**
+```
+Arrays.binarySearch(arr, target) -> O(nlogn)
+Arrays.sort()
+Arrays.toString()
+Arrays.asList(int[] arr) -> O(1) only accept object
+Arrays.copyOf(originalArray, newLength) -> O(1)
+Arrays.copyOfRange(originalArray, start, end) -> O(n)
+comparable -> compareTo(secondNum)
+```
 
+## **ArrayList**
+size-adjustable [ArrayList]: `List<X> list = new ArrayList<>();` 
+```
+list.add(E e);
+list.add(int index, E e); // random access
+list.addAll(Collection c);
+list.get(int index);
+list.remove(int index);
+list.remove(E e);
+list.clear(); // faster than removeAll
+list.set(int index, E e);
+list.toArray(); // Object[]
 
-## ArrayList
-size-adjustable [ArrayList]: `List<X> list = new ArrayList<>();`  
-  - add(E, e)
-  - add(int index, E e) // random access
-	- addAll(Collection c) // append whole to list
-	- E get(int index)
-	- 
-	- contains(val) // return true if find
-	- indexOf(val) // return -1 if not find
-	- 
-	- remove(int index)
-	- remove(E e)
-	- clear() // faster than removeAll
-	- 
-	- set (int index, E e)
-	- int size()
-	- toArray() -> Object[]
-  - Collections.sort(list, new myComparator())
-  - COllections.reverse(arrayList)
-  - ArrayList.subList(start, end)
-  - list.forEach(k -> sb.append(k));
-  - Comparator -> compare(item1, item2)
-
-
-## Deque
-two end [queue]: `Deque<X> dq = new ArrayDeque<>();`
-  - offerFirst()/ offerLast();
-	- pollFirst() / pullLast();
-	- peekFirst()/ peekLast();
-	- isEmpty();
-	- size();
+Collections.sort(list, new myComparator());
+Comparator -> compare(item1, item2);
+Collectionis.reverse(list);
+ArrayList.subList(start, end);
+list.forEach(k -> sb.append(k));
+```
 
 ## HashMap
 [HashMap]: `Map<String, Integer> map = new HashMap<>();`  
-`ImmutableMap<String, Integer> map = ImmutableMap.of(...);`
+`ImmutableMap<String, Integer> map = ImmutableMap.of(...);`  
+![HashMap](/Users/jingping/Desktop/sreenshot/map.jpeg)
 >  - ordered map: LinkedHashMap
 >  - sorted map: SortedMap<String, Integer> map = new TreeMap<>()
-  - map.get(key); 
-  - map.getOrDefalut(key, defaultValue); // value or defaultValue
-  - 
-  - map.put(key, value);
-  - map.putIfAbsent(key, value); // return null or current value
-  - 
-  - map.containsKey(key);
-  - map.remove(key)
-  - 
-  - map.keySet()
-  - map.values()
-  - map.entrySet()
-  - 
-  for (Map.Entry<String, Integer> entry : map.entrySet()) {   
-    String key = entry.getKey();   
-    Integer value = entry.getValue()  
-  }
 
-  public void iterateUsingLambda(Map<String, Integer> map) {  
-    map.forEach((k, v) -> System.out.println((k + ":" + v)));  
-  }
+
+```
+map.get(key);
+map.getOrDefault(key, defaultValue);
+
+map.put(key, value);
+map.putIfAbsent(key, value); // return null or current value
+
+map.containsKey(key);
+map.remove(key);
+
+map.keySet()
+map.values()
+map.entrySet()
+
+for (Map.Entry<String, Integer> entry : map.entrySet()) {
+  String key = entry.getKey();
+  Integer value = entry.getValue();
+}
+
+map.forEach((k, v) -> System.out.println(k + " " + v));
+```
+
 
 ## HashSet
 [HashSet] `Set<Integer> set = new HashSet<>()` 
 >  - ordered (by insertion): LinkedHashSet
 >  - sorted (object need comparator): TreeSet
-  - set.add(key) 
-  - set.contains(key)
-  - set.remove(key) -> true/false
-  - set.toArray()
+
+```
+set.add(key);
+set.contains(key);
+set.remove(key); // return true / false
+set.toArray(); 
+```
 
 ## Integer
 - Integer.parseInt(String)
 - Integer.toString(number)
 
 ## PriorityQueue / Heap
-- min Heap [PriorityQueue]: `Queue<X> pq = new PriorityQueue<>();` 
-- max Heap: PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
-- pq.contains(key)
+```
+// min heap
+Queue<X> minHeap = new PriorityQueue<>();
+
+// max heap
+Queue<X> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+```
+
+## Deque
+two end [queue]: `Deque<X> dq = new ArrayDeque<>();`
+```
+dp.offerFirst(E e); // offerLast(E e)
+dp.pollFirst(); // pollLast()
+dp.peekFirst(); // peekLast()
+```
 
 ## Queue
-use a [queue]: `Queue<X> queue = new ArrayDeque<>();`
-               `Queue<X> queue = new LinkedList<>();`
-  - throw exception
-		add() 
-		element()
-		remove()
-  - return special value
-		offer()
-		poll()
-		peek()
+use a [queue]: 
+`Queue<X> queue = new ArrayDeque<>();`  
+`Queue<X> queue = new LinkedList<>();`
+```
+// throw exception
+queue.add(E e);
+queue.remove();
+queue.elements();
+
+// return null
+queue.offer(E e);
+queue.poll();
+queue.peek();
+```
 
 ## Stack
-use a stack: `Deque<X> stack = new ArrayDeque<>();`
-  - push(E)
-  - pop()
-  - peek()
+use a stack: `Deque<X> stack = new ArrayDeque<>();`  
+~~Stack<Integer> stack = new Stack<>();~~
+```
+stack.push(E e); // stack.addFirst(E, e); throw exception
+stack.pop(); // stack.removeFirst();
+stack.peek(); // stack.getFirst();
+
+// return null
+stack.offerFirst(E e);
+stack.pollFirst();
+stack.peekFirst();
+```
 
 
 ## LinkedList
@@ -167,9 +187,12 @@ use a stack: `Deque<X> stack = new ArrayDeque<>();`
 # Class Creation
 ## Comparator
 
+```
 PriorityQueue<Integer> queue = new PriorityQueue<>  
 ((a, b) -> b - a); // biggest pop first, 30 20 10
+```
 
+```
 private class myComparator implements Comparator<Integer> {  
     @Override
     public int compare(Integer i1, Integer i2) {  
@@ -179,12 +202,16 @@ private class myComparator implements Comparator<Integer> {
       return i1 > i2 ? -1 : 1;  
     }  
   }
+```
 
+```
 Pair<Integer, String> pair = new Pair<>(1, "One");  
-Integer key = pair.getKey();  
-String value = pair.getValue();
+  Integer key = pair.getKey();  
+  String value = pair.getValue();
 
 private Object[] getPair() {  
     // ...  
     return new Object[] {key, value};  
 }
+```
+
