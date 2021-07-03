@@ -8,4 +8,10 @@
 - [x] create website on GitHub
 - [x] practice Markdown syntax
 - [ ] listen to one algorithm class
-- [ ] solve 5 Leetcode problem
+- [ ] solve 3 Leetcode problem
+
+## 7/3
+- [ ] add basic layout on the main page
+- [ ] edit the markdown of leetcode page
+- [ ] review 3 leetcode old problem
+- [ ] solve 2 new leetcode problem

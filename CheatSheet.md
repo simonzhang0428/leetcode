@@ -4,7 +4,7 @@
 ### [website link](https://simonzhang0428.github.io/leetcode/)
 
 ## **Arrays**
-```
+```java
 Arrays.binarySearch(arr, target) -> O(nlogn)
 Arrays.sort()
 Arrays.toString()
@@ -15,8 +15,8 @@ comparable -> compareTo(secondNum)
 ```
 
 ## **ArrayList**
-size-adjustable [ArrayList]: `List<X> list = new ArrayList<>();` 
-```
+```java
+List<Integer> list = new ArrayList<>();
 list.add(E e);
 list.add(int index, E e); // random access
 list.addAll(Collection c);
@@ -35,14 +35,19 @@ list.forEach(k -> sb.append(k));
 ```
 
 ## HashMap
-[HashMap]: `Map<String, Integer> map = new HashMap<>();`  
-`ImmutableMap<String, Integer> map = ImmutableMap.of(...);`  
-![HashMap](/Users/jingping/Desktop/sreenshot/map.jpeg)
->  - ordered map: LinkedHashMap
->  - sorted map: SortedMap<String, Integer> map = new TreeMap<>()
 
+```java
+Map<String, Integer> map = new HashMap<>();
 
-```
+// immutable map
+ImmutableMap<String, Integer> map = ImmutableMap.of(...);
+
+// ordered map
+LinkedHashMap<String, Integer> map = new LinkedHashMap<>();
+
+// sorted map
+SortedMap<String, Integer> map = new TreeMap<>();
+
 map.get(key);
 map.getOrDefault(key, defaultValue);
 
@@ -66,11 +71,16 @@ map.forEach((k, v) -> System.out.println(k + " " + v));
 
 
 ## HashSet
-[HashSet] `Set<Integer> set = new HashSet<>()` 
->  - ordered (by insertion): LinkedHashSet
->  - sorted (object need comparator): TreeSet
 
-```
+```java
+Set<Integer> set = new HashSet<>();
+
+// ordered (by insertion)
+LinkedHashSet<Integer> set = new LinkedHashSet<>();
+
+// sorted (object need comparator)
+SortedSet<Integer> set = new TreeSet<>();
+
 set.add(key);
 set.contains(key);
 set.remove(key); // return true / false
@@ -78,11 +88,13 @@ set.toArray();
 ```
 
 ## Integer
-- Integer.parseInt(String)
-- Integer.toString(number)
+```java
+int i = Integer.parseInt(String);
+String str = Integer.toString(number)
+```
 
 ## PriorityQueue / Heap
-```
+```java
 // min heap
 Queue<X> minHeap = new PriorityQueue<>();
 
@@ -91,18 +103,18 @@ Queue<X> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
 ```
 
 ## Deque
-two end [queue]: `Deque<X> dq = new ArrayDeque<>();`
-```
+```java
+Deque<X> dq = new ArrayDeque<>();
 dp.offerFirst(E e); // offerLast(E e)
 dp.pollFirst(); // pollLast()
 dp.peekFirst(); // peekLast()
 ```
 
 ## Queue
-use a [queue]: 
-`Queue<X> queue = new ArrayDeque<>();`  
-`Queue<X> queue = new LinkedList<>();`
 ```
+Queue<X> queue = new ArrayDeque<>();
+Queue<X> queue = new LinkedList<>();
+
 // throw exception
 queue.add(E e);
 queue.remove();
@@ -115,9 +127,11 @@ queue.peek();
 ```
 
 ## Stack
-use a stack: `Deque<X> stack = new ArrayDeque<>();`  
+
 ~~Stack<Integer> stack = new Stack<>();~~
-```
+```java
+Deque<X> stack = new ArrayDeque<>();
+
 stack.push(E e); // stack.addFirst(E, e); throw exception
 stack.pop(); // stack.removeFirst();
 stack.peek(); // stack.getFirst();
@@ -188,15 +202,16 @@ stack.peekFirst();
 - Collections.sort(list, new myComparator())
 - Collections.reverse(arrayList)
 
+
 # Class Creation
 ## Comparator
 
-```
+```java
 PriorityQueue<Integer> queue = new PriorityQueue<>  
 ((a, b) -> b - a); // biggest pop first, 30 20 10
 ```
 
-```
+```java
 private class myComparator implements Comparator<Integer> {  
     @Override
     public int compare(Integer i1, Integer i2) {  
@@ -208,7 +223,7 @@ private class myComparator implements Comparator<Integer> {
   }
 ```
 
-```
+```java
 Pair<Integer, String> pair = new Pair<>(1, "One");  
   Integer key = pair.getKey();  
   String value = pair.getValue();
