@@ -1,4 +1,4 @@
-# This is my *daily* check remainder
+# *Daily Check-In* 
 
 ![Fighting](https://img-blog.csdnimg.cn/20190910095229588.jpg?x-oss-process=image/resize,m_fixed,h_224,w_224)
 
@@ -16,3 +16,7 @@
 - [ ] review 3 leetcode old problem
 - [x] solve 2 new leetcode problem
 - [x] finish the algorithm class
+
+## 7/4
+- [ ] review 3 leetcode old problem
+- [ ] start project 1

@@ -1,11 +1,5 @@
 import java.util.*;
 
-public class LengthOfLongestSubstring3 {
-    public static void main(String[] args) {
-        System.out.println("3:  " + new Solution3().lengthOfLongestSubstring("pwwkew"));
-    }
-}
-
 class Solution3 {
     /*
     0   1   2   3   4   5   
@@ -31,5 +25,11 @@ class Solution3 {
             ans = Math.max(ans, fast - slow + 1);
         }
         return ans;
+    }
+}
+
+public class LengthOfLongestSubstring3 {
+    public static void main(String[] args) {
+        System.out.println("3:  " + new Solution3().lengthOfLongestSubstring("pwwkew"));
     }
 }

@@ -111,7 +111,7 @@ dp.peekFirst(); // peekLast()
 ```
 
 ## Queue
-```
+```java
 Queue<X> queue = new ArrayDeque<>();
 Queue<X> queue = new LinkedList<>();
 
