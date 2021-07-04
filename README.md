@@ -2,7 +2,7 @@
 
 ## [Repo Website](https://simonzhang0428.github.io/leetcode/)
 ## [Cheat Sheet](CheatSheet.pdf)
-## [Daily Check](DailyCheck.md)
+## [Daily Check](DailyCheck.pdf)
 
 | Date          | Number        |  Title |  Link
 | -----------   | -----------   | ----------- | ----------- |
