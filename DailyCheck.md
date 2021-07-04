@@ -11,7 +11,8 @@
 - [ ] solve 3 Leetcode problem
 
 ## 7/3
-- [ ] add basic layout on the main page
-- [ ] edit the markdown of leetcode page
+- [x] add basic layout on the main page
+- [x] edit the markdown of leetcode page
 - [ ] review 3 leetcode old problem
-- [ ] solve 2 new leetcode problem
+- [x] solve 2 new leetcode problem
+- [x] finish the algorithm class
