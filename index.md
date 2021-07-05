@@ -13,4 +13,6 @@
 | 6/30          | 739           | daily temperature | 
 | 7/01          | 994           | orange rotting | 
 | 7/01          | 286           | walls and gates | 
-| 7/03          | 3             | longest substring
+| 7/03          | 3             | longest substring |
+| 7/04          | 438           | find anagrams                 | 
+| 7/04          | 485           | find max consecutive ones     | 
