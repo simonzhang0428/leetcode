@@ -16,5 +16,5 @@
 | 7/01          | 286           | walls and gates               | [286](WallAndGate286.java)
 | 7/03          | 3             | longest substring             | [3](LengthOfLongestSubstring3.java)
 | 7/04          | 438           | find anagrams                 | [438](FindAnagrams438.java)
-| 7/04          | 485           | find anagrams                 | [438](FindAnagrams438.java)
+| 7/04          | 485           | find max consecutive ones     | [485](FindMaxConsecutiveOnes485.java)
 
