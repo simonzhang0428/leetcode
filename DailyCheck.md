@@ -7,7 +7,7 @@
 ## 7/2
 - [x] create website on GitHub
 - [x] practice Markdown syntax
-- [ ] listen to one algorithm class
+- [x] listen to one algorithm class
 - [ ] solve 3 Leetcode problem
 
 ## 7/3
@@ -18,5 +18,5 @@
 - [x] finish the algorithm class
 
 ## 7/4
-- [ ] review 3 leetcode old problem
+- [x] review 3 leetcode old problem
 - [ ] start project 1
