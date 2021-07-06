@@ -4,7 +4,7 @@
 ## [Java Cheat Sheet](CheatSheet.pdf)
 ## [Daily Check](DailyCheck.pdf)
 
-| Date          | Number        |  Title |  Link
+| Date          | Number        |  Title                        |  Link
 | -----------   | -----------   | -----------                   | ----------- |
 | 6/27          | 704           | classic binary search         | [704](BinarySearch704.java)
 | 6/28          | 240           | search 2D matrix              | [240](SearchMatrix240.java)
@@ -18,4 +18,5 @@
 | 7/04          | 438           | find anagrams                 | [438](FindAnagrams438.java)
 | 7/04          | 485           | find max consecutive ones     | [485](FindMaxConsecutiveOnes485.java)
 | 7/05          | 1004          | find max consecutive ones 3   | [1004](LongestOnes1004.java)
+| 7/05          | 231           | is power of 2                 | [231](IsPowerOfTwo231.java)
 
