@@ -19,7 +19,6 @@
 
 ## 7/4
 - [x] review 3 leetcode old problem
-- [ ] start project 1
 
 ## 7/5
 - [x] slove 3 leetcode problem
@@ -28,4 +27,4 @@
 
 ## 7/6
 - [x] slove 3 leetcode problem
-- [ ] start project 1
+- [X] start project 1
