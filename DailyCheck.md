@@ -20,3 +20,8 @@
 ## 7/4
 - [x] review 3 leetcode old problem
 - [ ] start project 1
+
+## 7/4
+- [x] slove 3 leetcode problem
+- [ ] finish bit section
+- [ ] start project 1

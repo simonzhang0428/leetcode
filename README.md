@@ -17,4 +17,5 @@
 | 7/03          | 3             | longest substring             | [3](LengthOfLongestSubstring3.java)
 | 7/04          | 438           | find anagrams                 | [438](FindAnagrams438.java)
 | 7/04          | 485           | find max consecutive ones     | [485](FindMaxConsecutiveOnes485.java)
+| 7/05          | 1004          | find max consecutive ones 3   | [1004](LongestOnes1004.java)
 
