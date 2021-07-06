@@ -16,3 +16,7 @@
 | 7/03          | 3             | longest substring |
 | 7/04          | 438           | find anagrams                 | 
 | 7/04          | 485           | find max consecutive ones     | 
+| 7/05          | 1004          | find max consecutive ones 3   | 
+| 7/05          | 231           | is power of 2                 |
+| 7/05          | 191           | number of ones                | 
+| 7/05          | 405           | conver to hex                 | 
