@@ -1,6 +1,6 @@
 # Java APIs
 
-## Creater: Simon Zhang
+## Creator: [Simon Zhang](https://simonzhang0428.github.io)
 ### [website link](https://simonzhang0428.github.io/leetcode/)
 
 ## **Arrays**
