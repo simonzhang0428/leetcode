@@ -21,11 +21,11 @@
 - [x] review 3 leetcode old problem
 - [ ] start project 1
 
-## 7/4
+## 7/5
 - [x] slove 3 leetcode problem
 - [x] finish bit section
 - [ ] start project 1
 
-## 7/5
+## 7/6
 - [x] slove 3 leetcode problem
 - [ ] start project 1
