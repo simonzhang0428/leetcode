@@ -23,5 +23,9 @@
 
 ## 7/4
 - [x] slove 3 leetcode problem
-- [ ] finish bit section
+- [x] finish bit section
+- [ ] start project 1
+
+## 7/5
+- [x] slove 3 leetcode problem
 - [ ] start project 1

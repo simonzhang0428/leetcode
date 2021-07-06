@@ -20,4 +20,5 @@
 | 7/05          | 1004          | find max consecutive ones 3   | [1004](LongestOnes1004.java)
 | 7/05          | 231           | is power of 2                 | [231](IsPowerOfTwo231.java)
 | 7/05          | 191           | number of ones                | [191](NumberOfOnes191.java)
+| 7/05          | 405           | conver to hex                 | [405](ToHex405.java)
 
