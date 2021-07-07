@@ -28,3 +28,8 @@
 ## 7/6
 - [x] slove 3 leetcode problem
 - [X] start project 1
+
+## 7/7
+- [ ] slove 3 leetcode problem
+- [ ] finish 1 project class
+- [ ] finish 1 algorithm class
