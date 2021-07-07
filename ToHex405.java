@@ -32,5 +32,9 @@ public class ToHex405 {
     public static void main(String[] args) {
         System.out.println("1a: " + new Solution405().toHex(26));
         System.out.println("ffffffff: " + new Solution405_2().toHex(-1));
+        int m = -255;
+        System.out.println(Integer.toString(m, 16));
+        System.out.println("m >>> 4:    " + (m >>> 4));
+        System.out.println("m >> 4:    " + (m >> 4));
     }
 }
