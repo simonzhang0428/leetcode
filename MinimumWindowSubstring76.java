@@ -1,12 +1,13 @@
 /*
 0   1   2   3   4   5   6   7   8   9   10  11  12
 A   D   O   B   E   C   O   D   E   B   A   N   C
-i
-j
+                                        i
+                                                    j
 A   B   C   D   o   e   n
 1   1   1   10   100   1
 need = 0
-minLength = 6
+minLength = 4
+startIndex = 9
 */
 class Solution76 {
     public String minWindow(String s, String t) {
