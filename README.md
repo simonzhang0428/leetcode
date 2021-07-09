@@ -25,3 +25,4 @@
 | 7/06          | 490           | maze 1_has path               | [490](https://github.com/simonzhang0428/leetcode/blob/main/Maze490.java)
 | 7/08          | 102           | level traversal               | [102](https://github.com/simonzhang0428/leetcode/blob/main/LevelOrder102.java)
 | 7/08          | 108           | sorted array to balanced BST  | [108](https://github.com/simonzhang0428/leetcode/blob/main/SortedArrayToBST108.java)
+| 7/09          | 236           | lowest common ancestor        | [236](https://github.com/simonzhang0428/leetcode/blob/main/LCA236.java)
