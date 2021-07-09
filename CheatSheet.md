@@ -17,6 +17,7 @@ int[] extend = new int[256];
 Arrays.binarySearch(arr, target) -> O(nlogn)
 Arrays.sort(array)
 Arrays.sort(Object[] array, Collections.reverseOrder());
+Arrays.fill(array, number);
 Arrays.toString()
 Arrays.asList(int[] arr) -> O(1) only accept object
 Arrays.copyOf(originalArray, newLength) -> O(1)
