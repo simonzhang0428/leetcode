@@ -3,6 +3,15 @@
 ## Creator: [Simon Zhang](https://simonzhang0428.github.io)
 ### [website link](https://simonzhang0428.github.io/leetcode/)
 
+## ASCII
+```java
+int[] regular = new int[128];
+int[] extend = new int[256];
+'a' = 97;
+'A' = 65;
+'0' = 48;
+```
+
 ## **Arrays**
 ```java
 Arrays.binarySearch(arr, target) -> O(nlogn)
