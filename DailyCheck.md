@@ -32,4 +32,8 @@
 ## 7/7
 - [ ] slove 3 leetcode problem
 - [ ] finish 1 project class
-- [ ] finish 1 algorithm class
+- [x] finish 1 algorithm class
+
+## 7/8
+- [ ] finish recursion 2 class
+- [ ] slove 3 problem

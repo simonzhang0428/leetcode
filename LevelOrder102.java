@@ -23,6 +23,7 @@ class Solution102 {
         }
     }
 }
+
 class TreeNode {
     TreeNode left;
     TreeNode right;
@@ -33,7 +34,14 @@ class TreeNode {
         this.right = right;
         this.val = val;
     }
+
+    public TreeNode(int val) {
+        this.val = val;
+        this.left = null;
+        this.right = null;
+    }
 }
+
 public class LevelOrder102 {
     public static void main(String[] args) {
         TreeNode left = new TreeNode(null, null, 9);

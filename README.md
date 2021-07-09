@@ -23,3 +23,4 @@
 | 7/05          | 405           | conver to hex                 | [405](https://github.com/simonzhang0428/leetcode/blob/main/ToHex405.java)
 | 7/06          | 190           | reverse bits                  | [190](https://github.com/simonzhang0428/leetcode/blob/main/ReverseBits190.java)
 | 7/06          | 490           | maze 1_has path               | [490](https://github.com/simonzhang0428/leetcode/blob/main/Maze490.java)
+| 7/08          | 102           | level traversal               | [102](https://github.com/simonzhang0428/leetcode/blob/main/LevelOrder102.java)
