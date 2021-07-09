@@ -15,7 +15,8 @@ int[] extend = new int[256];
 ## **Arrays**
 ```java
 Arrays.binarySearch(arr, target) -> O(nlogn)
-Arrays.sort()
+Arrays.sort(array)
+Arrays.sort(Object[] array, Collections.reverseOrder());
 Arrays.toString()
 Arrays.asList(int[] arr) -> O(1) only accept object
 Arrays.copyOf(originalArray, newLength) -> O(1)
@@ -39,7 +40,7 @@ list.toArray(); // Object[]
 
 Collections.sort(list, new myComparator());
 Comparator -> compare(item1, item2);
-Collectionis.reverse(list);
+Collections.reverse(list);
 ArrayList.subList(start, end);
 list.forEach(k -> sb.append(k));
 ```
