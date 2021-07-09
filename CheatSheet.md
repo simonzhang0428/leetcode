@@ -11,6 +11,7 @@ Arrays.toString()
 Arrays.asList(int[] arr) -> O(1) only accept object
 Arrays.copyOf(originalArray, newLength) -> O(1)
 Arrays.copyOfRange(originalArray, start, end) -> O(n)
+Arrays.equals(array1, array2) // compare contents
 comparable -> compareTo(secondNum)
 ```
 
