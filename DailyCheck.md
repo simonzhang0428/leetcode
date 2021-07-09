@@ -38,5 +38,5 @@
 - [x] slove 3 problem
 
 ## 7/9
-- [ ] start dp 1 class
-- [ ] slove 3 problem
+- [x] start dp 1 class
+- [x] slove 3 problem
