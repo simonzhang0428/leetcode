@@ -40,3 +40,12 @@
 ## 7/9
 - [x] start dp 1 class
 - [x] slove 3 problem
+
+## 7/10
+- [x] start OOD Parking Lot
+- [x] finish OOD 2
+
+## 7/9
+- [x] finish Parking Lot design
+- [x] start DP 1
+- [ ] solve 2 problem
