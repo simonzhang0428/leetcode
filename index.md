@@ -29,4 +29,4 @@
 | 7/09| 50| my pow| [50](https://github.com/simonzhang0428/leetcode/blob/main/Pow50.java)
 | 7/09| 408| valid word abbreviation| [408](https://github.com/simonzhang0428/leetcode/blob/main/ValidWordAbbreviation408.java)
 | 7/10| OOD| parking lot| [parking lot 1](https://github.com/simonzhang0428/OOD/tree/main/ParkingLot)
-| 7/11| OOD| parking lot| [parking lot 2](https://github.com/simonzhang0428/OOD/tree/main/ParkingLot)
+| 7/11| OOD| parking lot| [parking lot 2](https://github.com/simonzhang0428/OOD/blob/main/ParkingLot/ParkingLot_mixed.java)
