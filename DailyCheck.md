@@ -45,7 +45,7 @@
 - [x] start OOD Parking Lot
 - [x] finish OOD 2
 
-## 7/9
+## 7/11
 - [x] finish Parking Lot design
 - [x] start DP 1
 - [ ] solve 2 problem
