@@ -49,3 +49,12 @@
 - [x] finish Parking Lot design
 - [x] start DP 1
 - [ ] solve 2 problem
+
+## 7/12
+- [x] finish project html class
+- [x] finish DP 1
+
+## 7/13
+- [x] solve 3 new problem
+- [ ] finish OOD 3 factory pattern
+- [ ] start DP 2 class
