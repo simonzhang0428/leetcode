@@ -33,3 +33,4 @@
 | 7/11| OOD| parking lot| [parking lot 2](https://github.com/simonzhang0428/OOD/blob/main/ParkingLot/ParkingLot_mixed.java)
 | 7/13| 55| jump game 1| [55](https://github.com/simonzhang0428/leetcode/blob/main/JumpGame55.java)
 | 7/13| 509| Fibonacci| [509](https://github.com/simonzhang0428/leetcode/blob/main/Fibonacci509.java)
+| 7/14| 45| jump game 2| 455](https://github.com/simonzhang0428/leetcode/blob/main/JumpGame45.java)

@@ -56,5 +56,5 @@
 
 ## 7/13
 - [x] solve 3 new problem
-- [ ] finish OOD 3 factory pattern
-- [ ] start DP 2 class
+- [x] finish OOD 3 factory pattern
+- [x] start DP 2 class
