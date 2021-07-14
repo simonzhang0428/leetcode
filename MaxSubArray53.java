@@ -9,8 +9,11 @@ nums    1   2   4   -1  -20 10  -1
 dp      1   3   7   6   -14 10  9
 global_max = 10
 
--1  -2
--1
+index   0   1   2   3   4   5   6   
+nums    1   2   4   -1  -20 10  -1
+prev                        10
+curr                            9
+global_max = 10
 */
 class Solution53 {
     public int maxSubArray(int[] nums) {
