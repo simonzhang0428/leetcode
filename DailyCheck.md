@@ -58,3 +58,8 @@
 - [x] solve 3 new problem
 - [x] finish OOD 3 factory pattern
 - [x] start DP 2 class
+
+## 7/14
+- [x] solve 3 new problem
+- [x] finish project class 5
+- [x] finish DP 2 class
