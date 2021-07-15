@@ -15,5 +15,7 @@ class Solution509 {
 public class Fibonacci509 {
     public static void main(String[] args) {
         System.out.println("5:  " + new Solution509().fib(5));
+        int res = new Solution509().fib(5);
+        assert (res != 5) : "Something wrong";
     }
 }
