@@ -164,56 +164,65 @@ stack.peekFirst();
 
 
 ## String:
-- s.length()
-- s.isEmpty()
-- s.equals(s2)
-- s.contains("word") -> true/false
-- s.indexOf(char)
-- s.lastIndexOf(char)
-- s.startsWith(str)
-- s.endsWith(str)
-- s.substring(start)
-- s.substring(start, end)
-- s.toCharArray()
-- String s = new String(char[])
-- s.split("/") -> String[]
-- s.split(",");
-- s.trim()
-- s.replaceAll("[^A-Za-z\\d]+", "").toLowerCase();
-- String.valueOf(num); //int i=10; Now it will return "10" 
-- Integer.toString(number) 
-- String.join(",", char[]); "a,b,c"
+```java
+s.length()
+s.isEmpty()
+s.equals(s2)
+s.contains("word") 
+s.indexOf(char)
+s.lastIndexOf(char)
+s.startsWith(str)
+s.endsWith(str)
+s.substring(start)
+s.substring(start, end)
+s.toCharArray()
+
+String s = new String(char[])
+s.split("/") // String[]
+s.trim()
+s.replaceAll("[^A-Za-z\\d]+", "").toLowerCase();
+String.valueOf(num); // int i=10; Now it will return "10" 
+Integer.toString(number) 
+String.join(",", char[]); "a,b,c"
+```
 
 
 ## StringBuilder
-[StringBuilder] `StringBuilder sb = new StringBuilder()`
-  - contructor: (int capacity/ CharSequence seq / String str)
-  - sb.append('a' / char[] / int / boolean)
-  - sb.deleteCharAt(sb.length() - 1);
-  - sb.size()
-  - sb.insert(int index, char ch) -> O(n)
-  - sb.setLength(int newLength)
-  - sb.setCharAt(int index, char ch)
-  - CharSequence sb.subSequence(int start, int end)
-  - StringBuilder(sb).reverse().toString();
+```java
+StringBuilder sb = new StringBuilder()
+// contructor: (int capacity/ CharSequence seq / String str)
+sb.append('a' / char[] / int / boolean)
+sb.delete(int start, int end)
+sb.deleteCharAt(sb.length() - 1);
+sb.insert(int index, char... ch) // O(n)
+sb.setLength(int newLength)
+sb.setCharAt(int index, char ch)
+sb.subSequence(int start, int end) // return CharSequence 
+StringBuilder(sb).reverse().toString();
+```
 
 ## Character
-- Character.toLowerCase(c)
-- Character.isLetterOrDigit(c)
+```java
+Character.toLowerCase(c)
+Character.isLetterOrDigit(c)
+```
 
 
 ## char
-- string.charAt(index) - 'a' -> ASCII 128 char
-- string.charAt(index) - '0' // char to int 
-- Character.toString(char c) // char -> String
-- String.valueOf(char c) // char -> String
-- (char) int + '0' // int to char
+```java
+string.charAt(index) - 'a' // ASCII 128 char
+string.charAt(index) - '0' // char to int 
+Character.toString(char c) // char -> String
+String.valueOf(char c) // char -> String
+(char) int + '0' // int to char
+```
 
 ## Collection
-- Collections.binarySearch(collection, target)
-- Collections.sort(list, new myComparator())
-- Collections.reverse(arrayList)
-
+```java
+Collections.binarySearch(collection, target)
+Collections.sort(list, new myComparator())
+Collections.reverse(arrayList)
+```
 
 # Class Creation
 ## Comparator
