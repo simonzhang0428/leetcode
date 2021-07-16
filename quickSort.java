@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class quickSort {
     Random random = new Random();
     public int[] sortIntegers(int[] arr) {
