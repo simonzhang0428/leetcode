@@ -63,3 +63,7 @@
 - [x] solve 3 new problem
 - [x] finish project class 5
 - [x] finish DP 2 class
+
+## 7/15
+- [x] solve 3 new problem
+- [x] start system design class 1
