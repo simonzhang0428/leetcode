@@ -79,6 +79,11 @@ for (Map.Entry<String, Integer> entry : map.entrySet()) {
 }
 
 map.forEach((k, v) -> System.out.println(k + " " + v));
+
+map.computeIfAbsent(key, k -> V.createFor(k));
+prices.computeIfAbsent("Shirt", key -> 280)
+prices.computeIfPresent("Shoes", (key, value) -> value + value * 10/100)
+
 ```
 
 
@@ -222,6 +227,7 @@ String.valueOf(char c) // char -> String
 Collections.binarySearch(collection, target)
 Collections.sort(list, new myComparator())
 Collections.reverse(arrayList)
+Collections.max(map.values())
 ```
 
 # Class Creation
@@ -234,14 +240,14 @@ PriorityQueue<Integer> queue = new PriorityQueue<>
 
 ```java
 private class myComparator implements Comparator<Integer> {  
-    @Override
-    public int compare(Integer i1, Integer i2) {  
-      if (i1.equals(i2)) {  
-        return 0;  
-      }  
-      return i1 > i2 ? -1 : 1;  
+  @Override
+  public int compare(Integer i1, Integer i2) {  
+    if (i1.equals(i2)) {  
+      return 0;  
     }  
-  }
+    return i1 > i2 ? -1 : 1;  
+  }  
+}
 ```
 
 ```java
