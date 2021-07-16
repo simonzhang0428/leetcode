@@ -1,4 +1,6 @@
-class Solution {
+import java.util.*;
+
+public class _215 {
     public int findKthLargest1(int[] nums, int k) {
         // time: O(n + klogn)   
         // space: O(n)
