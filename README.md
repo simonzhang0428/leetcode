@@ -37,4 +37,6 @@
 | 7/14| 53| max subarray sum| [53](https://github.com/simonzhang0428/leetcode/blob/main/MaxSubArray53.java)
 | 7/15| 133| clone graph| [133](https://github.com/simonzhang0428/leetcode/blob/main/_133.java)
 | 7/15| 215| Kth Largest Element in an Array| [215](https://github.com/simonzhang0428/leetcode/blob/main/_215.java)
+| 7/16| 75| Sort Colors| [75](https://github.com/simonzhang0428/leetcode/blob/main/_75.java)
+| 7/16| 72| Edit Distance| [72](https://github.com/simonzhang0428/leetcode/blob/main/_72.java)
 
