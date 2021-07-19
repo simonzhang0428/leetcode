@@ -67,3 +67,17 @@
 ## 7/15
 - [x] solve 3 new problem
 - [x] start system design class 1
+
+## 7/16
+- [x] solve 3 new problem
+- [x] finish system design class 1
+
+## 7/17
+- [x] draft new version of Resume
+- [x] start update LinkedIn
+
+## 7/18
+- [x] finish Resume
+- [x] finish LinkedIn
+- [x] solve 2 problem
+- [ ] consider Youtube upload explaining video
