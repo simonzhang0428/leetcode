@@ -3,6 +3,7 @@
 ## [Repo Website](https://simonzhang0428.github.io/leetcode/)
 ## [Java Cheat Sheet](https://github.com/simonzhang0428/leetcode/blob/main/CheatSheet.pdf)
 ## [Daily Check](https://github.com/simonzhang0428/leetcode/blob/main/DailyCheck.pdf)
+## [LinkedIn](https://www.linkedin.com/in/simonzhangucla/)
 
 | Date| Number|  Title|  Link
 | -----------   | -----------   | -----------| ----------- |
@@ -39,4 +40,6 @@
 | 7/15| 215| Kth Largest Element in an Array| [215](https://github.com/simonzhang0428/leetcode/blob/main/_215.java)
 | 7/16| 75| Sort Colors| [75](https://github.com/simonzhang0428/leetcode/blob/main/_75.java)
 | 7/16| 72| Edit Distance| [72](https://github.com/simonzhang0428/leetcode/blob/main/_72.java)
+| 7/17| LinkedIn| Polish LinkedIn| [LinkedIn](https://www.linkedin.com/in/simonzhangucla/)
+| 7/18| 221| Maximal Square| [221](https://github.com/simonzhang0428/leetcode/blob/main/_221.java)
 
