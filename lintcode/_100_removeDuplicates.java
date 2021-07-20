@@ -8,7 +8,12 @@ public class _100_removeDuplicates {
          * @return: An integer
          */
         /*
-         * idx 0 1 2 3 N 1 2 3 3 s f return 3
+         *   0 1 2 3 
+         * N 1 2 3 3 
+         *         s 
+         *           f 
+         * 
+         * return 3
          */
         // to the left of slow (excluding slow) is the final answer
         // fast index to scan the string (from left to right)
