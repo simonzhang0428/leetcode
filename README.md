@@ -42,4 +42,5 @@
 | 7/16| 72| Edit Distance| [72](https://github.com/simonzhang0428/leetcode/blob/main/_72.java)
 | 7/17| LinkedIn| Polish LinkedIn| [LinkedIn](https://www.linkedin.com/in/simonzhangucla/)
 | 7/18| 221| Maximal Square| [221](https://github.com/simonzhang0428/leetcode/blob/main/_221.java)
+| 7/20| 13| strStr| [13](/lintcode/_13_strStr.java)
 

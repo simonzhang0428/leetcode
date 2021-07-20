@@ -8,12 +8,6 @@ public class _13_strStr {
          * @return: return the index
          */
 
-        /**
-         * 0 1 2 3 source a b c d i target b c d j
-         * 
-         * return 1
-         */
-
         // Time: O(m * n)
         public int strStr(String source, String target) {
             // Write your code here
