@@ -1,3 +1,4 @@
+package leetcode;
 class Solution190 {
     // you need treat n as an unsigned value
     /*

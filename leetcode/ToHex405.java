@@ -1,3 +1,4 @@
+package leetcode;
 class Solution405 {
     public String toHex(int num) {
         if (num == 0) {

@@ -1,3 +1,4 @@
+package leetcode;
 class BinarySearch704 {
     public static int binarySearch(int[] nums, int target) {
         int left = 0;

@@ -1,3 +1,4 @@
+package leetcode;
 import java.util.*;
 /*
 ex  0   1   2   3

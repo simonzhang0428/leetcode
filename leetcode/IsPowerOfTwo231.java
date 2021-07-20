@@ -1,3 +1,4 @@
+package leetcode;
 public class IsPowerOfTwo231 {
     public static void main(String[] args) {
         System.out.println("false:  " + new Solution231().isPowerOfTwo(17));

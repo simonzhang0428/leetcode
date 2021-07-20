@@ -1,3 +1,4 @@
+package leetcode;
 class Solution408 {
     /**
      * @param word: a non-empty string

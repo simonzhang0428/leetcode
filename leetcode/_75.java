@@ -1,3 +1,5 @@
+package leetcode;
+
 public class _75 {
     public void sortColors(int[] nums) {
         int n = nums.length;

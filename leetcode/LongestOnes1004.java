@@ -1,3 +1,4 @@
+package leetcode;
 class Solution1004 {
     public int longestOnes(int[] nums, int k) {
         int ans = 0, count = 0, left = 0, right = 0;

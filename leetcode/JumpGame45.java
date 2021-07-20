@@ -1,3 +1,4 @@
+package leetcode;
 /*
             i   j   j   j
 index   0   1   2   3   4

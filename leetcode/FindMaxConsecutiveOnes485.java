@@ -1,3 +1,4 @@
+package leetcode;
 class Solution485 {
     public int findMaxConsecutiveOnes(int[] nums) {
         int max = 0, globalMax = 0;
