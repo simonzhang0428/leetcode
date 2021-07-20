@@ -44,4 +44,5 @@
 | 7/18| 221| Maximal Square| [221](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_221.java)
 | 7/20| 13| strStr| [13](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_13_strStr.java)
 | 7/20| 56| two sum| [56](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_56_twoSum.java)
+| 7/20| 64| merge two Sorted Array| [64](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_64_mergeSortedArray.java)
 
