@@ -81,3 +81,11 @@
 - [x] finish LinkedIn
 - [x] solve 2 problem
 - [ ] consider Youtube upload explaining video
+
+## 7/19
+- [x] deploy project 1 from Eclipse to IntelliJ
+- [x] forget Youtube by now
+
+## 7/20
+- [ ] 10 easy question from lintcode
+
