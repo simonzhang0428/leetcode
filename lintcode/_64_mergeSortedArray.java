@@ -15,7 +15,11 @@ public class _64_mergeSortedArray {
         * @return: nothing
         */
         /**
-         * idx 0 1 2 3 4 A 10 20 10 20 30 i B 4 5 j
+         *    0  1  2   3  4 
+         * A 10 20 10  20 30 
+         * i 
+         * B  4  5 
+         *       j
          * 
          */
         public void mergeSortedArray(int[] A, int m, int[] B, int n) {
