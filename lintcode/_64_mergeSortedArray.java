@@ -18,6 +18,7 @@ public class _64_mergeSortedArray {
          *    0  1  2   3  4 
          * A 10 20 10  20 30 
          * i 
+         *          r
          * B  4  5 
          *       j
          * 
@@ -38,7 +39,22 @@ public class _64_mergeSortedArray {
                 A[j] = B[j];
                 j--;
             }
-
         }
+
+        // version 2, same idea
+        public void mergeSortedArray2(int[] A, int m, int[] B, int n) {
+            int i = m - 1, j = n - 1, resIndex = m + n -1;
+            while (i >= 0 && j >= 0) {
+                if (B[j] > A[i]) {
+                    A[resIndex--] = B[j--];
+                } else {
+                    A[resIndex--] = A[i--];
+                }
+            }
+            while (j >= 0) {
+                A[resIndex--] = B[j--];
+            }
+        }
+
     }
 }
