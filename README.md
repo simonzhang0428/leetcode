@@ -47,4 +47,5 @@
 | 7/20| 64| merge two Sorted Array| [64](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_64_mergeSortedArray.java)
 | 7/20| 100| remove Duplicates from sorted array| [100](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_100_removeDuplicates.java)
 | 7/20| 141| integer sqrt| [141](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_141_sqrt.java)
+| 7/21| 117| integer sqrt| [141](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_141_sqrt.java)
 
