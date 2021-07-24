@@ -48,4 +48,5 @@
 | 7/20| 100| remove Duplicates from sorted array| [100](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_100_removeDuplicates.java)
 | 7/20| 141| integer sqrt| [141](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_141_sqrt.java)
 | 7/21| 117| Populating Next Right Pointers in Each Node II| [117](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_117.py)
+| 7/24| 172| remove element| [172](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_172_removeElement.py)
 
