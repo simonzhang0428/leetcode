@@ -1,3 +1,5 @@
+import time
+print(time.time())
 
 # Definition for a Node.
 class Node:
@@ -9,7 +11,7 @@ class Node:
 
 
 class Solution:
-    def connect(self, root: 'Node'):
+    def connect(self, root: 'Node') -> 'Node':
         if not root:
             return root
 
