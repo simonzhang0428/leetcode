@@ -87,5 +87,12 @@
 - [x] forget Youtube by now
 
 ## 7/20
-- [ ] 10 easy question from lintcode
+- [x] 6 easy question from lintcode
 
+## 7/21 - 7/25
+- [x] start Django project
+- [x] re-fresh Python syntax
+
+## 7/26
+- [ ] practice 3 python problem
+- [ ] learn SQL basic

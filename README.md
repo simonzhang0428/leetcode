@@ -1,7 +1,8 @@
 # leetcode
 
 ## [Repo Website](https://simonzhang0428.github.io/leetcode/)
-## [Java Cheat Sheet](https://github.com/simonzhang0428/leetcode/blob/main/CheatSheet.pdf)
+## [Java Cheat Sheet](https://github.com/simonzhang0428/leetcode/blob/main/Java_CheatSheet.pdf)
+## [Python Cheat Sheet](https://github.com/simonzhang0428/leetcode/blob/main/Python_Sheet.pdf)
 ## [Daily Check](https://github.com/simonzhang0428/leetcode/blob/main/DailyCheck.pdf)
 ## [LinkedIn](https://www.linkedin.com/in/simonzhangucla/)
 
@@ -49,4 +50,4 @@
 | 7/20| 141| integer sqrt| [141](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_141_sqrt.java)
 | 7/21| 117| Populating Next Right Pointers in Each Node II| [117](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_117.py)
 | 7/24| 172| remove element| [172](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_172_removeElement.py)
-
+| 7/25| 1819| longest Semi-Alternating Substring| [1819](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_1819.py)
