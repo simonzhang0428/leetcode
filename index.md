@@ -1,6 +1,5 @@
-# leetcode
+# Welcome to my LeetCode/LintCode Daily Route 
 
-## [Repo Website](https://simonzhang0428.github.io/leetcode/)
 ## [Java Cheat Sheet](https://github.com/simonzhang0428/leetcode/blob/main/Java_CheatSheet.pdf)
 ## [Python Cheat Sheet](https://github.com/simonzhang0428/leetcode/blob/main/Python_Sheet.pdf)
 ## [Daily Check](https://github.com/simonzhang0428/leetcode/blob/main/DailyCheck.pdf)
@@ -44,14 +43,8 @@
 | 7/17| LinkedIn| Polish LinkedIn| [LinkedIn](https://www.linkedin.com/in/simonzhangucla/)
 | 7/18| 221| Maximal Square| [221](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_221.java)
 | 7/20| 13| strStr| [13](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_13_strStr.java)
-| 7/20| 56| two sum| [56](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_56_twoSum.java)
-| 7/20| 64| merge two Sorted Array| [64](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_64_mergeSortedArray.java)
-| 7/20| 100| remove Duplicates from sorted array| [100](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_100_removeDuplicates.java)
-| 7/20| 141| integer sqrt| [141](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_141_sqrt.java)
 | 7/21| 117| Populating Next Right Pointers in Each Node II| [117](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_117.py)
 | 7/24| 172| remove element| [172](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_172_removeElement.py)
 | 7/25| 1819| longest Semi-Alternating Substring| [1819](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_1819.py)
-| 7/26| 80| remove Duplicates at most 2| [80](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_80.py)
-| 7/26| 26| remove Duplicates | [26](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_26.py)
-| 7/26| 27| remove Duplicates given target| [26](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_27.py)
 | 7/26| 1089| duplicate Zeros| [1089](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_1089.py)
+
