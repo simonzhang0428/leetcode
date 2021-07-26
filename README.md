@@ -51,3 +51,6 @@
 | 7/21| 117| Populating Next Right Pointers in Each Node II| [117](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_117.py)
 | 7/24| 172| remove element| [172](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_172_removeElement.py)
 | 7/25| 1819| longest Semi-Alternating Substring| [1819](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_1819.py)
+| 7/26| 80| remove Duplicates at most 2| [80](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_80.py)
+| 7/26| 26| remove Duplicates | [26](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_26.py)
+| 7/26| 27| remove Duplicates given target| [26](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_27.py)

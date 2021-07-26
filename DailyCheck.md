@@ -94,5 +94,5 @@
 - [x] re-fresh Python syntax
 
 ## 7/26
-- [ ] practice 3 python problem
+- [x] practice 3 python problem
 - [ ] learn SQL basic
