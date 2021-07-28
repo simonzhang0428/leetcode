@@ -173,9 +173,17 @@ from collections import deque
 queue = deque(['simon', 'helen', 'dudu'])
 queue.append('neinei')
 queue.popleft()
-queue.popleft()
 queue[0] # peek
 queue.clear()
+```
+
+## deque
+```python
+dq = deque([1, 2, 3])
+dp.append(4)
+dp.popleft()
+dp.appendleft(0)
+dp.pop()
 ```
 
 ## ASCII

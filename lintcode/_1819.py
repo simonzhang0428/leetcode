@@ -5,10 +5,10 @@ class Solution:
 
     0   1   2   3   4   5   6   7   8   9
     b   a   a   a   b   b   a   b   b   b
-                                    i
-                                        j
-    cnt = 2
-    res = 7
+            i
+                j
+    cnt = 3
+    res = 3
     """
     def longestSemiAlternatingSubstring(self, s):
         # write your code here
