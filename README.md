@@ -55,3 +55,10 @@
 | 7/26| 26| remove Duplicates | [26](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_26.py)
 | 7/26| 27| remove Duplicates given target| [26](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_27.py)
 | 7/26| 1089| duplicate Zeros| [1089](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_1089.py)
+| 7/28| 46| permute| [46](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_46.py)
+| 7/28| 47| permute with duplicate| [47](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_47.py)
+| 7/28| 102| level Order| [102](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_102.py)
+| 7/28| 103| zigzag Level Order| [103](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_103.py)
+| 7/28| 173| BST Iterator| [173](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_173.py)
+| 7/28| 236| lowest Common Ancestor| [236](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_236.py)
+
