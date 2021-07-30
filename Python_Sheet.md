@@ -185,6 +185,15 @@ queue[0] # peek
 queue.clear()
 ```
 
+## math
+```python
+-float('inf') == -math.inf
+fabs(-100) # absolute value
+math.pow(2,10) # 2 ^ 10 = 1024
+math.log(math.e) # ln(e) = 1
+math.log(math.e ** 2,math.e) # ln(e^2) / ln(e) = 2
+```
+
 ## ASCII
 ```python
 print(ord('a'))    # 97
