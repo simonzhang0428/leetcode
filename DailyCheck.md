@@ -95,4 +95,8 @@
 
 ## 7/26
 - [x] practice 3 python problem
-- [ ] learn SQL basic
+- [x] learn SQL basic
+
+## 7/27 - 7/29
+- [x] practice 3 python problem
+- [x] mock interview
