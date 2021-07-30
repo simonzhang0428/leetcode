@@ -61,4 +61,8 @@
 | 7/28| 103| zigzag Level Order| [103](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_103.py)
 | 7/28| 173| BST Iterator| [173](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_173.py)
 | 7/28| 236| lowest Common Ancestor| [236](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_236.py)
+| 7/29| 900| closest Value in BST| [900](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_900.py)
+| 7/29| 474| lowest Common Ancestor II(parent)| [474](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_474.py)
+| 7/29| 138| copy Random linked List| [138](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_138.py)
+| 7/29| 133| copy graph| [133](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_133_.py)
 
