@@ -10,7 +10,7 @@ l1.extend(l2)
 l1.append(100)
 l1.insert(0, 666)
 
-l1.pop() # default pop last element, return it
+l1.pop(idx) # default pop last element, -1 means last element
 l1.remove(2) # remove first accurance (value)
 del l1[1] # remove at specific index
 
@@ -20,6 +20,11 @@ l1.index(4) # first accurance
 l1.count(0)
 l1.sort(key=None, reverse=False) # change l1
 sorted(l1) # l1 not change
+
+# 2D matrix
+arr3 = [[0 for _ in range(1)] for _ in range(5)]
+arr3[1][0] = 9
+arr3 # [[0], [9], [0], [0], [0]]
 ```
 
 ## String -> str
