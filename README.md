@@ -66,4 +66,4 @@
 | 7/29| 138| copy Random linked List| [138](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_138.py)
 | 7/29| 133| copy graph| [133](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_133_.py)
 | 7/30| 450| delete Node in BST| [450](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_450_.py)
-
+| 7/30| 578| LCA 3(may not in tree)| [578](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_578_.py)
