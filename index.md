@@ -2,7 +2,6 @@
 
 ## [Java Cheat Sheet](https://github.com/simonzhang0428/leetcode/blob/main/Java_CheatSheet.pdf)
 ## [Python Cheat Sheet](https://github.com/simonzhang0428/leetcode/blob/main/Python_Sheet.pdf)
-## [Daily Check](https://github.com/simonzhang0428/leetcode/blob/main/DailyCheck.pdf)
 ## [LinkedIn](https://www.linkedin.com/in/simonzhangucla/)
 
 | Date| Number|  Title|  Link
