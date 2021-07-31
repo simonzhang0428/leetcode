@@ -65,4 +65,5 @@
 | 7/29| 474| lowest Common Ancestor II(parent)| [474](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_474.py)
 | 7/29| 138| copy Random linked List| [138](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_138.py)
 | 7/29| 133| copy graph| [133](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_133_.py)
+| 7/30| 450| delete Node in BST| [450](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_450_.py)
 
