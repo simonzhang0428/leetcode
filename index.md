@@ -64,4 +64,6 @@
 | 7/30| 589| N-ary Tree Preorder Traversal| [589](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_589.py)
 | 7/30| 429| N-ary Tree level order Traversal| [429](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_429.py)
 | 7/30| 39| Combination Sum| [39](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_39.py)
+| 7/31| 594| str str(rabin karp)| [594](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_594.py)
+| 7/31| 129| sum Numbers from root to leaf| [129](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_129.py)
 
