@@ -154,6 +154,16 @@ s3 = set(['a', 'b', 'foo'])
 s.add(x)
 s.remove(x) # raise error if absence
 s.discard(x) # return None if absence
+
+# de-duplicate
+t = [1, 2, 3, 1, 2, 5, 6, 7, 8]
+list(set(t))
+# [1, 2, 3, 5, 6, 7, 8]
+
+# de-duplicate + ordered!
+list(dict.fromkeys('abracadabra'))
+# ['a', 'b', 'r', 'c', 'd']
+
 s.copy() # deep copy
 s.update(s2) s == s2
 
