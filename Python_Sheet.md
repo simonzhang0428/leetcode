@@ -45,6 +45,16 @@ s.count('S')
 s.find('XX') # -1 if not find
 s.index('S') # throw error if not find
 
+# like Java StringBuilder
+l = []
+l.append('foo')
+l.append('bar')
+l.append('baz')
+s = ''.join(l)
+
+int('123')
+float('1.22')
+
 # f-strings, Formatted string literal
 import math
 print(f'The value of pi is approximately "{math.pi:.3f}"')
