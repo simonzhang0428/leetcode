@@ -43,6 +43,18 @@ class Solution:
 
         self.dfs(nums, path, idx + 1, res)
 
+    def subsetsWithDup(self, nums):
+        ret = []
+        self.dfs(sorted(nums), [], ret)
+        return ret
+    
+    def dfs(self, nums, path, ret):
+        ret.append(path)
+        for i in range(len(nums)):
+            if i > 0 and nums[i] == nums[i-1]:
+                continue
+            self.dfs(nums[i+1:], path+[nums[i]], ret)
+
 if __name__ == '__main__':
     sol = Solution()
-    print(sol.subsets_with_dup([1, 2, 2]))
+    print(sol.subsetsWithDup([1, 2, 2]))
