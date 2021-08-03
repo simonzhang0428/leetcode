@@ -74,4 +74,5 @@
 | 7/31| 129| sum Numbers from root to leaf| [129](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_129.py)
 | 8/01| 17| Letter Combinations of a Phone Number| [17](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_17.py)
 | 8/02| 90| sub set 2(dup)| [90](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_90.py)
+| 8/02| 85| insert node in BST| [85](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_85.py)
 
