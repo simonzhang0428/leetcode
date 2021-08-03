@@ -91,7 +91,7 @@ name.pop('Helen', default=-1) # return value, remove entry
 name.popitem() # return 2-tuple, LIFO order
 
 name.keys()
-name.values()
+name.values() # max(d.values()) return max value
 name.items()
 
 # f-string, concatenate string and other type
