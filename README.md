@@ -76,4 +76,5 @@
 | 8/02| 90| sub set 2(dup)| [90](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_90.py)
 | 8/02| 85| insert node in BST| [85](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_85.py)
 | 8/02| 1008| build bst From Preorder| [1008](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_1008.py)
+| 8/03| 174| Remove Nth Node From End of List| [174](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_174.py)
 
