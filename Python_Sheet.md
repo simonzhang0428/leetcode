@@ -210,6 +210,30 @@ queue[0] # peek
 queue.clear()
 ```
 
+Priority Queue
+```python
+from heapq import heappush, heappop, heapify
+
+def heapsort(iterable):
+    h = []
+    for value in iterable:
+        heappush(h, value)
+    return [heappop(h) for _ in range(len(h))]
+
+l = [1, 3, 5, 7, 9, 2, 4, 6, 8, 0]
+print(heapsort(l))
+
+heap[0] is smallest
+heapq.heappush(heap, item)
+heapq.heappop(heap) # return smallest
+heapq.heappushpop(heap, item) # == push + pop
+heap[0] # peek smallest
+heapq.heapify(list())
+heap.heapreplace(heap, item) # == pop + push
+heapq.merge(*iterables, key=None, reverse=False)
+heapq.nlargest(n, iterable, key=None)
+```
+
 ## math
 ```python
 -float('inf') == -math.inf
