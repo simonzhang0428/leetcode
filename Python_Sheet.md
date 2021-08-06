@@ -2,6 +2,34 @@
 
 ## Creator: [Simon Zhang](https://simonzhang0428.github.io)
 
+
+## Counter
+
+```python
+from collections import Counter, defaultdict
+
+word = "mississippi"
+counter = defaultdict(int)
+for letter in word:
+    counter[letter] += 1
+
+# Use a string as an argument
+letters = Counter('mississippi')
+Counter(set("mississippi")) # Counter({'i': 4, 's': 4, 'p': 2, 'm': 1})
+letters.update("missouri") # Counter({'i': 6, 's': 6, 'p': 2, 'm': 2, 'o': 1, 'u': 1, 'r': 1})
+
+for letter, freq in letters.items():
+    print(letter, freq)
+print(letters.keys()) # dict_keys(['m', 'i', 's', 'p'])
+print(letters.values()) # dict_values([1, 4, 4, 2])
+
+counter1.most_common(3) # default sort and return all
+counter1.subtract(counter2) # c1 = c1 - c2
+counter1.update(counter2) # c1 = c1 + c2
+c1 +/-/&/| c2
+# return positve, & == min, | == max
+```
+
 ## List -> list() / [1, 2]
 ```python
 l1 = [1, 2, 3]
@@ -388,21 +416,3 @@ def repeat_func(n):
     return wrapper
 ```
 
-## Counter
-
-```python
-from collections import Counter
-counter1 = Counter({'x': 4, 'y': 2, 'z': -2})
-counter2 = Counter({'x1': -12, 'y': 5, 'z':4 })
-
-_elements = counter1.elements() # will give you all elements with positive value and count>0
-for a in _elements: # tertools.chain object
-    print(a)
-
-counter1.most_common(3) # default sort and return all
-counter1.subtract(counter2) # c1 - c2
-counter1.update(counter2) # c1 + c2
-
-c1 +/-/&/| c2
-# return positve, & == min, | == max
-```
