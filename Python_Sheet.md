@@ -29,6 +29,18 @@ counter1.update(counter2) # c1 = c1 + c2
 c1 +/-/&/| c2
 # return positve, & == min, | == max
 ```
+## XX.sort vs sorted()
+
+```python
+digits = [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
+
+digits.sort(reverse=True) # change input
+print(digits) # [9, 8, 7, 6, 5, 4, 3, 3, 1, 0]
+
+digits = [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
+sorted(digits, reverse=True) # return copy of input, not change input
+print(digits) # [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
+```
 
 ## List -> list() / [1, 2]
 ```python

@@ -1,6 +1,5 @@
 from collections import Counter, defaultdict
 
-
 word = "mississippi"
 counter = defaultdict(int)
 for letter in word:
@@ -38,3 +37,12 @@ sales.most_common()[::-1]
 sales.most_common()[:-3:-1]
 # [('tomato', 4), ('banana', 15)]
 
+################################################
+digits = [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
+
+digits.sort(reverse=True) # change input
+print(digits) # [9, 8, 7, 6, 5, 4, 3, 3, 1, 0]
+
+digits = [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
+sorted(digits, reverse=True) # return copy of input, not change input
+print(digits) # [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
