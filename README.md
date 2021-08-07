@@ -79,4 +79,5 @@
 | 8/03| 174| Remove Nth Node From End of List| [174](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_174.py)
 | 8/03| 437| top K Frequent| [437](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_437.py)
 | 8/06| 207| can Finish classes| [207](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_207.py)
+| 8/06| 878| Boundary of Binary Tree| [878](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_878.py)
 
