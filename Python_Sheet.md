@@ -2,7 +2,18 @@
 
 ## Creator: [Simon Zhang](https://simonzhang0428.github.io)
 
+## lambda
 
+```python
+# lambda
+lambda x : x
+(lambda x : x + 1)(2) # (func)(args)
+(lambda x, y: x + y)(2, 3)
+
+high_ord_func = lambda x, func: x + func(x)
+high_ord_func(3, lambda x: x ** 2)
+sorted(name, key= lambda x: x.age) # sort by age ascending
+```
 ## Counter
 
 ```python
