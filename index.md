@@ -66,4 +66,17 @@
 | 7/30| 39| Combination Sum| [39](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_39.py)
 | 7/31| 594| str str(rabin karp)| [594](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_594.py)
 | 7/31| 129| sum Numbers from root to leaf| [129](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_129.py)
+| 8/01| 17| Letter Combinations of a Phone Number| [17](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_17.py)
+| 8/02| 90| sub set 2(dup)| [90](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_90.py)
+| 8/02| 85| insert node in BST| [85](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_85.py)
+| 8/02| 1008| build bst From Preorder| [1008](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_1008.py)
+| 8/03| 174| Remove Nth Node From End of List| [174](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_174.py)
+| 8/03| 437| top K Frequent| [437](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_437.py)
+| 8/06| 207| can Finish classes| [207](https://github.com/simonzhang0428/leetcode/blob/main/leetcode/_207.py)
+| 8/06| 878| Boundary of Binary Tree| [878](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_878.py)
+| 8/06| 391| Number of Airplanes in the Sky| [391](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_391.py)
+| 8/06| 920| meeting rooms| [920](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_920.py)
+| 8/06| 919| meeting rooms 2| [919](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_919.py)
+| 8/07| 8| Rotate String| [8](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_8.py)
+
 
