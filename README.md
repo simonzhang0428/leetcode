@@ -83,4 +83,5 @@
 | 8/06| 391| Number of Airplanes in the Sky| [391](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_391.py)
 | 8/06| 920| meeting rooms| [920](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_920.py)
 | 8/06| 919| meeting rooms 2| [919](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_919.py)
+| 8/07| 8| Rotate String| [8](https://github.com/simonzhang0428/leetcode/blob/main/lintcode/_8.py)
 
