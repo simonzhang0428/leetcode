@@ -2,6 +2,15 @@
 
 ## Creator: [Simon Zhang](https://simonzhang0428.github.io)
 
+## main / test
+
+```python
+# when import, will NOT run the code under 'main', only run top-level code
+if __name__ == '__main__':
+    sol = Solution()
+    print(sol.func_name(args))
+```
+
 ## lambda
 
 ```python
