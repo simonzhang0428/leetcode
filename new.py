@@ -1,5 +1,73 @@
-from collections import Counter, defaultdict
+from collections import Counter, defaultdict, deque
+import collections
 
+strings = ['1', '2', '3', 'do', 're', 'mi']
+strings = ','.join(strings)
+strings.split(',')
+
+data = '1,2,#,#,3,4,#,#,5,#,#'
+vals = collections.deque(val for val in data.split(','))
+
+################################################
+l1 = [(1, 10), (2, 100), (2, -5), (1, -100)]
+l1.sort(key=lambda x: (x[0], x[1]))
+print(l1)
+
+################################################
+l2 = [i for i in range(10)]
+bisect.bisect(l2, 5) # binary search
+
+from sortedcontainers import SortedList # treemap
+sl = SortedList(['e', 'a', 'c', 'd', 'b'])
+sl
+SortedList(['a', 'b', 'c', 'd', 'e'])
+sl *= 10_000_000
+sl.count('c')
+10000000
+sl[-3:]
+['e', 'e', 'e']
+
+from sortedcontainers import SortedDict
+sd = SortedDict({'c': 3, 'a': 1, 'b': 2})
+sd
+SortedDict({'a': 1, 'b': 2, 'c': 3})
+sd.popitem(index=-1)
+('c', 3)
+
+from sortedcontainers import SortedSet
+ss = SortedSet('abracadabra')
+ss
+SortedSet(['a', 'b', 'c', 'd', 'r'])
+ss.bisect_left('c')
+2
+
+################################################
+name_height = {'simon': 177, 'helen': 166}
+name_height.get('dudu', 30)
+
+name_default = defaultdict(list)
+name_default[0] # no error, default is []
+name_default[1].append(4)
+name_default[1].append(4)
+name_default[1].append(4)
+name_default
+
+################################################
+# tuple unpacking
+t = (1, [1, 2, 3]) 
+one, more = t
+print(one, more)
+print(t[0], t[1])
+
+################################################
+dp = deque()
+dp.appendleft(1)
+dp.appendleft(2)
+dp.appendleft(3)
+dp.appendleft(4)
+print(dp)
+
+################################################
 word = "mississippi"
 counter = defaultdict(int)
 for letter in word:
@@ -56,4 +124,5 @@ lambda x : x
 
 high_ord_func = lambda x, func: x + func(x)
 high_ord_func(3, lambda x: x ** 2)
+
 

@@ -2,8 +2,78 @@
 
 ## Creator: [Simon Zhang](https://simonzhang0428.github.io)
 
-## main / test
+## library
+```python
+# keep list sorted after insertion
+bisect.bisect([1, 2, 3, 4, 5], target=3) 
+'''
+binary search, return insertion index of first element larger than target
+The returned insertion point i partitions the array a into two halves so that 
+all(val <= x for val in a[lo:i]) for the left side and 
+all(val > x for val in a[i:hi]) for the right side.
+'''
 
+bisect.bisect_left(a, x, lo=0, hi=len(a))
+# return before (to the left of) any existing entries
+# all(val < x for val in a[lo:i]) for the left side and 
+# all(val >= x for val in a[i:hi]) for the right side.
+```
+
+## str <-> int, split/join
+```python
+str(10)
+int('10', base=10)
+
+'this is my string'.split()
+strings = ['1', '2', '3', 'do', 're', 'mi']
+','.join(strings)
+```
+
+## comparator with more item use tuple (most, ..., least)
+```python
+l1 = [(1, 10), (2, 100), (2, -5), (1, -100)]
+l1.sort(key = lambda x: (x[0], -x[1])) # - means decreasing
+# overwrite __gt__, __lt__
+print(l1)
+```
+
+## sortedcontainers
+```python
+from sortedcontainers import SortedList
+sl = SortedList(['e', 'a', 'c', 'd', 'b'])
+sl
+SortedList(['a', 'b', 'c', 'd', 'e'])
+sl *= 10_000_000
+sl.count('c')
+10000000
+sl[-3:]
+['e', 'e', 'e']
+
+from sortedcontainers import SortedDict
+sd = SortedDict({'c': 3, 'a': 1, 'b': 2})
+sd
+SortedDict({'a': 1, 'b': 2, 'c': 3})
+sd.popitem(index=-1)
+('c', 3)
+
+from sortedcontainers import SortedSet
+ss = SortedSet('abracadabra')
+ss
+SortedSet(['a', 'b', 'c', 'd', 'r'])
+ss.bisect_left('c')
+2
+```
+## deque
+```python
+dq = collections.deque([])
+dp.appendleft(1)
+dp.popleft()
+
+data = '1,2,#,#,3,4,#,#,5,#,#'
+vals = collections.deque(val for val in data.split(','))
+```
+
+## main / test
 ```python
 # when import, will NOT run the code under 'main', only run top-level code
 if __name__ == '__main__':
@@ -12,7 +82,6 @@ if __name__ == '__main__':
 ```
 
 ## lambda
-
 ```python
 # lambda
 lambda x : x
@@ -21,8 +90,21 @@ lambda x : x
 
 high_ord_func = lambda x, func: x + func(x)
 high_ord_func(3, lambda x: x ** 2)
-sorted(name, key= lambda x: x.age) # sort by age ascending
+sorted(name, key=lambda x: x.age) # sort by age ascending
 ```
+
+## XX.sort vs sorted()
+```python
+digits = [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
+
+digits.sort(reverse=True) # change input, in-place
+print(digits) # [9, 8, 7, 6, 5, 4, 3, 3, 1, 0]
+
+digits = [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
+sorted(digits, reverse=True) # return copy of input, not change input, not in-place
+print(digits) # [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
+```
+
 ## Counter
 
 ```python
@@ -48,18 +130,6 @@ counter1.subtract(counter2) # c1 = c1 - c2
 counter1.update(counter2) # c1 = c1 + c2
 c1 +/-/&/| c2
 # return positve, & == min, | == max
-```
-## XX.sort vs sorted()
-
-```python
-digits = [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
-
-digits.sort(reverse=True) # change input
-print(digits) # [9, 8, 7, 6, 5, 4, 3, 3, 1, 0]
-
-digits = [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
-sorted(digits, reverse=True) # return copy of input, not change input
-print(digits) # [0, 5, 7, 3, 4, 9, 1, 6, 3, 8]
 ```
 
 ## List -> list() / [1, 2]
@@ -133,8 +203,8 @@ print('Jack: {0[Jack]:d}; Sjoerd: {0[Sjoerd]:d}; '
 
 ## Dictionary -> dict() / {'one' : 1} / {'one'=1}
 ```python
-name = {'Simom' : 178,
-        'Helen' : 165}
+name = {'Simom': 178,
+        'Helen': 165}
 name['Simom']
 name['Helen'] = 999
 name['xxx'] # KeyError
@@ -162,6 +232,9 @@ for key, value in name.items():
 ## defaultdict
 
 ```python
+name_default = defaultdict(list)
+name_default[0] # return [], no Error
+
 # list for append
 s = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
 d = defaultdict(list)
