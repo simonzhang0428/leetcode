@@ -2,6 +2,135 @@
 
 ## Creator: [Simon Zhang](https://simonzhang0428.github.io)
 
+## style
+
+3.5 Blank Lines
+Two blank lines between top-level definitions, be they function or class definitions. One blank line between method definitions and between the class line and the first method. No blank line following a def line. Use single blank lines as you judge appropriate within functions or methods.
+
+No whitespace inside parentheses, brackets or braces.
+
+`Yes: spam(ham[1], {'eggs': 2}, [])`
+
+No whitespace before a comma, semicolon, or colon. Do use whitespace after a comma, semicolon, or colon, except at the end of the line.
+
+`Yes: if x == 4:
+         print(x, y)
+     x, y = y, x`
+
+No whitespace before the open paren/bracket that starts an argument list, indexing or slicing.  
+`Yes: spam(1)`  
+`Yes: dict['key'] = list[index]`
+
+Surround binary operators with a single space on either side for assignment (=), comparisons (==, <, >, !=, <>, <=, >=, in, not in, is, is not), and Booleans (and, or, not). 
+Use your better judgment for the insertion of spaces around arithmetic operators (+, -, *, /, //, %, **, @).
+
+Never use spaces around = when passing keyword arguments or defining a default parameter value, with one exception: when a type annotation is present, do use spaces around the = for the default parameter value.
+`Yes: def complex(real, imag=0.0): return Magic(r=real, i=imag)`  
+`Yes: def complex(real, imag: float = 0.0): return Magic(r=real, i=imag)`
+
+Don’t use spaces to vertically align tokens on consecutive lines, since it becomes a maintenance burden (applies to :, #, =, etc.):
+
+```python
+foo = 1000  # comment
+long_name = 2  # comment that should not be aligned
+
+dictionary = {
+    'foo': 1,
+    'long_name': 2,
+}
+
+# import separate line
+import os
+import sys
+from typing import Mapping, Sequence
+import tensorflow as tf
+
+
+# docstring
+"""A one line summary of the module or program, terminated by a period.
+
+Leave one blank line.  The rest of this docstring should contain an
+overall description of the module or program.  Optionally, it may also
+contain a brief description of exported classes and functions and/or usage
+examples.
+
+  Typical usage example:
+
+  foo = ClassFoo()
+  bar = foo.FunctionBar()
+"""
+
+
+def fetch_smalltable_rows(table_handle: smalltable.Table,
+                          keys: Sequence[Union[bytes, str]],
+                          require_all_keys: bool = False,
+) -> Mapping[bytes, Tuple[str]]:
+    """Fetches rows from a Smalltable.
+
+    Retrieves rows pertaining to the given keys from the Table instance
+    represented by table_handle.  String keys will be UTF-8 encoded.
+
+    Args:
+        table_handle: An open smalltable.Table instance.
+        keys: A sequence of strings representing the key of each table
+          row to fetch.  String keys will be UTF-8 encoded.
+        require_all_keys: Optional; If require_all_keys is True only
+          rows with values set for all keys will be returned.
+
+    Returns:
+        A dict mapping keys to the corresponding table row data
+        fetched. Each row is represented as a tuple of strings. For
+        example:
+
+        {b'Serak': ('Rigel VII', 'Preparer'),
+         b'Zim': ('Irk', 'Invader'),
+         b'Lrrr': ('Omicron Persei 8', 'Emperor')}
+
+        Returned keys are always bytes.  If a key from the keys argument is
+        missing from the dictionary, then that row was not found in the
+        table (and require_all_keys must have been False).
+
+    Raises:
+        IOError: An error occurred accessing the smalltable.
+    """
+
+    # start method body...
+
+class SampleClass:
+    """Summary of class here.
+
+    Longer class information....
+    Longer class information....
+
+    Attributes:
+        likes_spam: A boolean indicating if we like SPAM or not.
+        eggs: An integer count of the eggs we have laid.
+    """
+
+    def __init__(self, likes_spam: bool = False):
+        """Inits SampleClass with blah."""
+        self.likes_spam = likes_spam
+        self.eggs = 0
+
+    def public_method(self):
+        """Performs operation blah."""
+
+```
+
+module_name, package_name, ClassName, method_name, ExceptionName, function_name, GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name, function_parameter_name, local_var_name.
+
+
+```python
+# conditional expression
+one_line = 'yes' if predicate(value) else 'no'
+slightly_split = ('yes' if predicate(value)
+                else 'no, nein, nyet')
+the_longest_ternary_style_that_can_be_done = (
+    'yes, true, affirmative, confirmed, correct'
+    if predicate(value)
+    else 'no, false, negative, nay')
+```
+
 ## library
 ```python
 # keep list sorted after insertion
@@ -76,7 +205,12 @@ vals = collections.deque(val for val in data.split(','))
 ## main / test
 ```python
 # when import, will NOT run the code under 'main', only run top-level code
+def foo():
+    ...
+
 if __name__ == '__main__':
+    foo()
+    
     sol = Solution()
     print(sol.func_name(args))
 ```
