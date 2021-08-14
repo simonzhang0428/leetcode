@@ -1,10 +1,13 @@
+from typing import List
+
+
 class LinkedNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
         
     
-def is_p(head) -> bool:
+def is_p(head: 'LinkedNode') -> bool:
     if head is None:
         return True
     vals = []

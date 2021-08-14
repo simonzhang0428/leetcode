@@ -2,6 +2,27 @@
 
 ## Creator: [Simon Zhang](https://simonzhang0428.github.io)
 
+## 
+```python
+from typing import List # type hint and check
+
+def is_p(head: 'LinkedNode') -> List[int]:
+    ...
+
+# Generic concrete collections
+class typing.Dict(dict, MutableMapping[KT, VT])
+class typing.List(list, MutableSequence[T])
+class typing.Set(set, MutableSet[T])
+
+# These are both interpreted as get_names(employee_ids: List[Any]) -> Dict[Any, Any]
+def get_names(employee_ids: list) -> Dict:
+  ...
+
+def get_names(employee_ids: List) -> Dict:
+  ...
+
+```
+
 ## style
 
 3.5 Blank Lines
@@ -192,6 +213,7 @@ SortedSet(['a', 'b', 'c', 'd', 'r'])
 ss.bisect_left('c')
 2
 ```
+
 ## deque
 ```python
 dq = collections.deque([])
@@ -210,7 +232,7 @@ def foo():
 
 if __name__ == '__main__':
     foo()
-    
+
     sol = Solution()
     print(sol.func_name(args))
 ```
