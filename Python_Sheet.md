@@ -2,7 +2,7 @@
 
 ## Creator: [Simon Zhang](https://simonzhang0428.github.io)
 
-## 
+##  typing
 ```python
 from typing import List # type hint and check
 
