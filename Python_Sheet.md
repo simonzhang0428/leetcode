@@ -2,6 +2,24 @@
 
 ## Creator: [Simon Zhang](https://simonzhang0428.github.io)
 
+## rondom
+
+```python
+import random
+random.randint(0, 10) # [0, 10]
+random.uniform(0, 10) # [0, 10], float
+random.randrange(10) # [0, 10)
+random.random() # [0, 1)
+
+random.choice(['win', 'lose', 'draw'])      # Single random element from a sequence
+
+deck = 'ace two three four'.split()
+random.shuffle(deck)                        # Shuffle a list
+deck
+
+random.sample([10, 20, 30, 40, 50], k=4)    # Four samples without replacement
+```
+
 ##  typing
 ```python
 from typing import List # type hint and check
