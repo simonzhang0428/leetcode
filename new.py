@@ -1,3 +1,8 @@
+s = 'hell'
+for c in s:
+    print(c)
+
+### random
 from collections import Counter, defaultdict, deque
 import collections, random
 
@@ -140,3 +145,7 @@ high_ord_func = lambda x, func: x + func(x)
 high_ord_func(3, lambda x: x ** 2)
 
 
+#####   2D matrix
+col, row = 5, 2
+arr3 = [[0 for _ in range(col)] for _ in range(row)]
+print(arr3)

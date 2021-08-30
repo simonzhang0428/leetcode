@@ -54,11 +54,14 @@ Map<String, Integer> map = new HashMap<>();
 // immutable map
 ImmutableMap<String, Integer> map = ImmutableMap.of(...);
 
-// ordered map
+// ordered map, by insertion
 LinkedHashMap<String, Integer> map = new LinkedHashMap<>();
 
-// sorted map
-SortedMap<String, Integer> map = new TreeMap<>();
+// sorted by key
+TreeMap<String, Integer> map = new TreeMap<>();
+treemap.ceilingKey(K key) // Returns the least key greater than or equal to the given key, or null if there is no such key.
+treemap.floorKey(K key) // Returns the greatest key less than or equal to the given key, or null if there is no such key.
+treemap.firstKey() // Returns the first (lowest) key currently in this map.
 
 map.get(key);
 map.getOrDefault(key, defaultValue);
@@ -185,7 +188,7 @@ s.toCharArray()
 String s = new String(char[])
 s.split("/") // String[]
 s.trim()
-s.replaceAll("[^A-Za-z\\d]+", "").toLowerCase();
+s.replaceAll("[^A-Za-z\\d]+", "").toLowerCase(); // ^ = !, `+` = [1, inf]
 String.valueOf(num); // int i=10; Now it will return "10" 
 Integer.toString(number) 
 String.join(",", char[]); "a,b,c"
