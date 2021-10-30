@@ -149,3 +149,14 @@ high_ord_func(3, lambda x: x ** 2)
 col, row = 5, 2
 arr3 = [[0 for _ in range(col)] for _ in range(row)]
 print(arr3)
+
+##### call, transfer class to family of functions
+'''
+put the constant into __init__
+put the change variabel into __call__
+
+like drive, no matter where:
+    constant are vehicle, variable are start and end
+for example, you want to LA, no matter what transfermation:
+    constant is start and end, variable is vehicle
+'''

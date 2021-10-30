@@ -6,17 +6,367 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrefixStrings",
+            "request": "launch",
+            "mainClass": "OA_CodeSignal.PrefixStrings",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "OA_Citadel.GFG",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProcessScheduling",
+            "request": "launch",
+            "mainClass": "OA_Citadel.ProcessScheduling",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetMaxDeletions",
+            "request": "launch",
+            "mainClass": "OA_Citadel.GetMaxDeletions",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch GlobalMax",
+            "request": "launch",
+            "mainClass": "OA_Citadel.GlobalMax",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpritTraining",
+            "request": "launch",
+            "mainClass": "OA_Citadel.SpritTraining",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockPair",
+            "request": "launch",
+            "mainClass": "OA_Citadel.StockPair",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeFactorVisitation",
+            "request": "launch",
+            "mainClass": "OA_Citadel.PrimeFactorVisitation",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch PortfolioBalance",
+            "request": "launch",
+            "mainClass": "OA_Citadel.PortfolioBalance",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiskSpace",
+            "request": "launch",
+            "mainClass": "OA_Citadel.DiskSpace",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch SongPair",
+            "request": "launch",
+            "mainClass": "OA_Citadel.SongPair",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch WaysToSum",
+            "request": "launch",
+            "mainClass": "OA_Citadel.WaysToSum",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Triplets",
+            "request": "launch",
+            "mainClass": "OA_Citadel.Triplets",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch PointInsideTriangle",
+            "request": "launch",
+            "mainClass": "OA_Citadel.PointInsideTriangle",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringChain",
+            "request": "launch",
+            "mainClass": "OA_Citadel.StringChain",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch JungleBook",
+            "request": "launch",
+            "mainClass": "OA_Citadel.JungleBook",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThrottlingGateway",
+            "request": "launch",
+            "mainClass": "OA_Citadel.ThrottlingGateway",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindBeforeMatrix",
+            "request": "launch",
+            "mainClass": "OA_Citadel.FindBeforeMatrix",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch IPO",
+            "request": "launch",
+            "mainClass": "OA_Citadel.IPO",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
             "name": "Launch example",
             "request": "launch",
             "mainClass": "example",
             "projectName": "leetcode_d19695d7"
         },
-        // {
-        //     "name": "Python: 当前文件",
-        //     "type": "python",
-        //     "request": "launch",
-        //     "program": "${file}",
-        //     "console": "integratedTerminal"
-        // }
+        {
+            "type": "java",
+            "name": "Launch MaxPathSum",
+            "request": "launch",
+            "mainClass": "MaxPathSum",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxPathSum",
+            "request": "launch",
+            "mainClass": "OA_CodeSignal.MaxPathSum",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch GlobalMaximum",
+            "request": "launch",
+            "mainClass": "OA_Goldman.GlobalMaximum",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch MeanderingArray",
+            "request": "launch",
+            "mainClass": "OA_Goldman.MeanderingArray",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch HackerCard",
+            "request": "launch",
+            "mainClass": "OA_Goldman.HackerCard",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inversion_Decreasing",
+            "request": "launch",
+            "mainClass": "OA_Goldman.Inversion_Decreasing",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Invension_increasing",
+            "request": "launch",
+            "mainClass": "OA_Goldman.Invension_increasing",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompetitiveGaming",
+            "request": "launch",
+            "mainClass": "OA_Goldman.CompetitiveGaming",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch TagIdentificationNumber",
+            "request": "launch",
+            "mainClass": "OA_Goldman.TagIdentificationNumber",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch PointPuzzle",
+            "request": "launch",
+            "mainClass": "OA_Goldman.PointPuzzle",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch CondensedList",
+            "request": "launch",
+            "mainClass": "OA_Goldman.CondensedList",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch RobotCycle",
+            "request": "launch",
+            "mainClass": "OA_Goldman.RobotCycle",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReachingPoints",
+            "request": "launch",
+            "mainClass": "OA_Goldman.ReachingPoints",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Compression",
+            "request": "launch",
+            "mainClass": "OA_Goldman.Compression",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSwaps",
+            "request": "launch",
+            "mainClass": "OA_Goldman.MaxSwaps",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Invension",
+            "request": "launch",
+            "mainClass": "OA_Goldman.Invension",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeFactor",
+            "request": "launch",
+            "mainClass": "OA_Goldman.PrimeFactor",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Frequency",
+            "request": "launch",
+            "mainClass": "OA_amazon.Frequency",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestString",
+            "request": "launch",
+            "mainClass": "OA_amazon.LargestString",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiscountPrice",
+            "request": "launch",
+            "mainClass": "OA_amazon.DiscountPrice",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch CostEvaluation",
+            "request": "launch",
+            "mainClass": "OA_amazon.CostEvaluation",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch TeamCounts",
+            "request": "launch",
+            "mainClass": "OA_amazon.TeamCounts",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch TransactionLogs",
+            "request": "launch",
+            "mainClass": "OA_amazon.TransactionLogs",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeOrder",
+            "request": "launch",
+            "mainClass": "OA_amazon.PrimeOrder",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinSwap",
+            "request": "launch",
+            "mainClass": "OA_amazon.MinSwap",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch ItemsInContainer",
+            "request": "launch",
+            "mainClass": "OA_amazon.ItemsInContainer",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubstringOfSizeKWithKDistinctChar",
+            "request": "launch",
+            "mainClass": "OA_amazon.SubstringOfSizeKWithKDistinctChar",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinTruckSize",
+            "request": "launch",
+            "mainClass": "OA_amazon.MinTruckSize",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch UntilizatioinCheck",
+            "request": "launch",
+            "mainClass": "OA_amazon.UntilizatioinCheck",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShppingPattern",
+            "request": "launch",
+            "mainClass": "OA_amazon.ShppingPattern",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreasureIsland",
+            "request": "launch",
+            "mainClass": "OA_amazon.TreasureIsland",
+            "projectName": "leetcode_d19695d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch MusicPair",
+            "request": "launch",
+            "mainClass": "OA_amazon.MusicPair",
+            "projectName": "leetcode_d19695d7"
+        }
     ]
 }

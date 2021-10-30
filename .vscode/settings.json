@@ -2,5 +2,9 @@
     // "markdown.extension.list.indentationSize": "inherit"
     "[markdown]": {
     "editor.tabSize": 4
-  }
+  },
+  "java.project.sourcePaths": [
+    "vs",
+    ""
+  ]
 }
