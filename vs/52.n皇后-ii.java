@@ -9,62 +9,41 @@ import java.util.Set;
 // @lc code=start
 
 class Solution {
-        /**
-    def backtrack_nqueen(row = 0, count = 0):
-        for col in range(n):
-            # iterate through columns at the curent row.
-            if is_not_under_attack(row, col):
-                # explore this partial candidate solution, and mark the attacking zone
-                place_queen(row, col)
-                if row + 1 == n:
-                    # we reach the bottom, i.e. we find a solution!
-                    count += 1
-                else:
-                    # we move on to the next row
-                    count = backtrack(row + 1, count)
-                # backtrack, i.e. remove the queen and remove the attacking zone.
-                remove_queen(row, col)
-        return count
-     */
-    
-    // Global variable inside solution class
-    private int size;
-    private final Set<Integer> cols = new HashSet<>();
-    private final Set<Integer> diag = new HashSet<>();
-    private final Set<Integer> anitDiag = new HashSet<>();
 
     public int totalNQueens(int n) {
-        this.size = n;
-
-        return backtrack(0);
+        List<Integer> ans = new ArrayList<>();
+        boolean[] cols = new boolean[n]; // 列
+        boolean[] d1 = new boolean[2 * n]; // 主对角线
+        boolean[] d2 = new boolean[2 * n]; // 副对角线
+        return backtrack(0, cols, d1, d2, n, 0);
     }
 
-    private int backtrack(int row) {
-        
-        int solutions = 0;
-        for (int col = 0; col < size; col++) {
-            if (cols.contains(col) || diag.contains(row + col) || anitDiag.contains(row - col)) {
-                continue;
-            }
-            
-            if (row + 1 == size) {
-                return 1;
-            } else {
-                cols.add(col);
-                diag.add(row + col);
-                anitDiag.add(row - col);
-    
-                solutions += backtrack(row + 1); 
-    
-                cols.remove(col);
-                diag.remove(row + col);
-                anitDiag.remove(row - col);
+    private int backtrack(int row, boolean[] cols, boolean[] d1, boolean[] d2, int n, int count) {
+        if (row == n) {
+            count++;
+        } else {
+            for (int col = 0; col < n; col++) {
+                int id1 = row - col + n; // 主对角线加 n
+                int id2 = row + col;
+                if (cols[col] || d1[id1] || d2[id2])
+                    continue;
+
+                cols[col] = true;
+                d1[id1] = true;
+                d2[id2] = true;
+
+                count = backtrack(row + 1, cols, d1, d2, n, count);
+                
+                cols[col] = false;
+                d1[id1] = false;
+                d2[id2] = false;
             }
 
         }
-
-        return solutions;
+        return count;
     }
+
+    
 }
 // @lc code=end
 
